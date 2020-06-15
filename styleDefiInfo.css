@@ -1,0 +1,150 @@
+body{
+    padding:0;
+    margin:0;
+    height:812px;
+    min-width:0;
+    min-height:0;
+    background: #F5F6F8;
+    
+}
+
+@font-face {
+    font-family: "Rubik";
+    
+	src: url('Assets/Rubik/Rubik-Regular.ttf');
+}
+
+@font-face {
+    font-family: "Rubikbold";
+    
+	src: url('Assets/Rubik/Rubik-Bold.ttf');
+}
+
+@font-face {
+    font-family: "Rubikmedium";
+    
+	src: url('Assets/Rubik/Rubik-Medium.ttf');
+}
+
+h1 {
+    font-family: "Rubikbold";
+    font-size: 30px;
+    color: white;
+}
+
+h2 {
+    font-family:"Rubikbold";
+    font-size: 24px;
+    color: #515C6F;
+    margin:0;
+}
+
+h3 {
+    font-family: "Rubikmedium";
+    font-size: 20px;
+    color: #515C6F;
+}
+
+p {
+    font-family: "Rubik";
+    font-size: 15px;
+    color: #515C6F;
+    margin: 0;
+}
+
+.photo img {
+    width: 375px;
+}
+
+header {
+    position: relative;
+    background: #FFC200;
+    height: 85px;
+    border-bottom-left-radius: 50px;
+    padding-right: 30px; 
+    padding-left: 30px;
+    margin-top: -324px;
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 8px 15px 0px rgba(0, 0, 0,0.16);
+}
+
+header img {
+    width: 24,32px;
+    height:25px;
+}
+
+header h1 {
+    align-self: center;
+}
+
+img:not(.fleche, .icone){
+    width:105px;
+    height:70px;
+}
+
+.container {
+    background: #F5F6F8;
+    margin-top: 235px;
+    padding-right:25px;
+    padding-left:25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titre {
+    position: relative;
+    background: white;
+    width: 326px;
+    height: 70px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -35px;
+    box-shadow: 0px 8px 15px 0px rgba(231,234,240,1);
+}
+
+
+.texte {
+    background: white;
+    margin-top : 15px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 8px 15px 0px rgba(231,234,240,1);
+}
+
+p span {
+    font-family: "Rubikmedium";
+    color: #026BFE;
+}
+
+.avancement {
+    background-attachment: no-repeat;
+    background: white;
+    width: 100%;
+    height: 50px;
+    margin-top: 20px;
+    padding-right: 50px;
+    display : flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px -1px 6px 0px rgba(0,0,0,0.16);
+}
+
+.avancement img {
+    width: 10%;
+    margin-right: 25px;
+}
+
+.non {
+    margin-left: 30px;
+}
+
+
+
+
